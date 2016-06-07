@@ -1,0 +1,7 @@
+.sqbutton {
+   border: 1px outset black;
+   background-color: white;
+   height:50px;
+   width:50px;
+   cursor:pointer;
+}
