@@ -2,8 +2,8 @@
 
 
 function addBaseMaterials() {
-bones=bones + 1
-var
+bones=bones + 1;
+document.getElementById("bones").innerHTML = bones;
 }
 
 
