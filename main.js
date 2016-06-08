@@ -2,6 +2,7 @@
 
 
 function addBaseMaterials() {
+bones=bones + 1
 }
 
 
