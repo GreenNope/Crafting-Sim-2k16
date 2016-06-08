@@ -1,4 +1,4 @@
-
+bones=0;
 
 
 function addBaseMaterials() {
