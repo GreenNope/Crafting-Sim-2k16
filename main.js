@@ -1,7 +1,7 @@
 var bones = 0;
 
 
-function boneClicked() {
+function boneClick() {
 bones = bones + 1;
 document.getElementById('bones').innerHTML = bones;
 }
