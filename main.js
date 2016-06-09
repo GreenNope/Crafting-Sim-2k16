@@ -1,9 +1,9 @@
 var bones = 0;
 
 
-function addBaseMaterials() {
+function boneClicked() {
 bones = bones + 1;
-document.getElementById("bones").innerHTML = bones
+document.getElementById("bones").innerHTML = bones+"Bones"
 }
 
 
