@@ -1,6 +1,6 @@
 var bones = 0;
 function bonepluralize (num) {
-  var bonesword;
+  var boneword;
   if (num = 1) {boneword = ' Bone';} else {boneword = ' Bones';}}
 
 function boneClick() {
