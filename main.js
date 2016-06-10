@@ -9,7 +9,7 @@ if (bones = 1) {
 } else {
   boneword = 'Bones';
 }
-document.getElementById('bones').innerHTML = bones + '' + boneword;
+document.getElementById('bones').innerHTML = bones + ' ' + boneword;
 }
 
 
