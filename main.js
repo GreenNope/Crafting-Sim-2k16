@@ -1,5 +1,5 @@
 var bones = 0;
-
+var bonesword = 'Bones';
 
 function boneClick() {
 bones = bones + 1;
