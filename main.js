@@ -4,12 +4,12 @@ var bonesword = 'Bones';
 function boneClick() {
 bones = bones + 1;
 if (bones = 1) {
-  boneword = 'Bone';
+  boneword = ' Bone';
   
 } else {
-  boneword = 'Bones';
+  boneword = ' Bones';
 }
-document.getElementById('bones').innerHTML = bones + ' ' + boneword;
+document.getElementById('bones').innerHTML = bones + boneword;
 }
 
 
