@@ -3,12 +3,10 @@ var bonesword = 'Bones';
 
 function boneClick() {
 bones = bones + 1;
-if (bones = 1) {
-  boneword = ' Bone';
+if (bones = 1) boneword = ' Bone';
   
-} else {
-  boneword = ' Bones';
-}
+ else boneword = ' Bones';
+
 document.getElementById('bones').innerHTML = bones + boneword;
 }
 
