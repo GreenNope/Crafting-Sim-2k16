@@ -5,7 +5,7 @@ function bonepluralize (num) {
 
 function boneClick() {
 bones = bones + 1;
-pluralizes(bones)
+bonepluralize(bones)
 document.getElementById('bones').innerHTML = bones + boneword;
 }
 
