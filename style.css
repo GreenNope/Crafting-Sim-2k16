@@ -6,3 +6,6 @@
    border-radius:0px;
    display:block;
 }
+.invis {
+   visibility: hidden;
+}
