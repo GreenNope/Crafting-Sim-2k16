@@ -1,7 +1,7 @@
 var bones = 0;
 var traps = 1;
 function boneClick() {
-  if (traps > 0) {
+  if (traps >= 1) {
     bones = bones + 1;
     traps = traps - 1;
     document.getElementById('bones').innerHTML = "Bones: " + bones;
@@ -10,9 +10,9 @@ function boneClick() {
 }
 
 function trapMake() {
-  if (bones > 0) {
+  if (bones >= 1) {
   bones = bones - 1
-  traps = traps + 2
+  traps = traps + 1.5
   document.getElementById('bones').innerHTML = "Bones: " + bones;
   document.getElementById('traps').innerHTML = "Traps: " + traps;
   }
