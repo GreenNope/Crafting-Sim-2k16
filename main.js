@@ -13,6 +13,8 @@ function trapMake() {
   if (bones > 0) {
   bones = bones - 1
   traps = traps + 2
+  document.getElementById('bones').innerHTML = "Bones: " + bones;
+  document.getElementById('traps').innerHTML = "Traps: " + traps;
   }
 }
 
