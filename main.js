@@ -10,6 +10,7 @@ function bonePluralize(num) {
 
 function boneClick() {
   bones = bones + 1;
+  bonePluralize(bones)
   document.getElementById('bones').innerHTML = bones + boneword;
 }
 
