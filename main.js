@@ -3,8 +3,7 @@ var traps = 1;
 function boneClick() {
   if (traps < 1) {
     bones = bones + 1;
-    traps = traps - 2;
-    traps = traps + 1;
+    traps = traps - 1;
     document.getElementById('bones').innerHTML = "Bones: " + bones;
   }
 }
