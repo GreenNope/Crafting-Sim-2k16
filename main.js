@@ -5,6 +5,7 @@ function boneClick() {
     bones = bones + 1;
     traps = traps - 1;
     document.getElementById('bones').innerHTML = "Bones: " + bones;
+    document.getElementById('traps').innerHTML = "Traps: " + traps;
   }
 }
 
