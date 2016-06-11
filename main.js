@@ -9,6 +9,12 @@ function boneClick() {
   }
 }
 
+function trapMake() {
+  if (bones > 0) {
+  bones = bones -1
+  traps = traps + 2
+  }
+}
 
 
 
