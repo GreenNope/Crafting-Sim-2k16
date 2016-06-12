@@ -19,6 +19,17 @@ function trapMake() {
   document.getElementById('traps').innerHTML = "Traps: " + traps;
   }
 }
+function load() {
+  var dataexists = getCookie("dataexists");
+  if (dataexists!="") {
+    var bones = getCookie("bones");
+    var traps = getCookie("traps");
+  }
+}
+function save() {
+  document.cookie = "bones" + "=" + bones;
+  document.cookie = "traps" + "=" + bones;
+}
 
 
 
