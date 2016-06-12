@@ -28,7 +28,8 @@ function load() {
 }
 function save() {
   document.cookie = "bones" + "=" + bones;
-  document.cookie = "traps" + "=" + bones;
+  document.cookie = "traps" + "=" + traps;
+  document.cookie = "dataexists" + "=" + "true"
 }
 
 
