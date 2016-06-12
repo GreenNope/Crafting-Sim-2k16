@@ -6,7 +6,7 @@ function boneClick() {
     traps = traps - 1;
     document.getElementById('bones').innerHTML = "Bones: " + bones;
     document.getElementById('traps').innerHTML = "Traps: " + traps;
-      document.getElementById("bones").className = document.getElementById("bones").className.replace( /(?:^|\s)invis(?!\S)/g , '' )
+      document.getElementById("maketraps").className = document.getElementById("maketraps").className.replace( /(?:^|\s)invis(?!\S)/g , 'sqbutton' )
   }
 }
 
